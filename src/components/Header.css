@@ -1,0 +1,35 @@
+header {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("../../public/character.jpg"); /* Replace with your image URL or path */
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character {
+  color: white;
+  font-size: 2.5rem;
+}
